@@ -1,1 +1,15 @@
 /* your code */
+table{
+	border:1px solid black;
+	border-collapse:collapse;
+	width:100%;
+}
+tr{
+	border:1px solid black;
+}
+thead{
+	background-color:blue;
+}
+tr:nth-child(even){
+	background-color: grey;
+}
